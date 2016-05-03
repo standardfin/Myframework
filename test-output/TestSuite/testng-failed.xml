@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="TestNG_Grouping">
+    <groups>
+      <define name="Honda and SUV">
+        <include name="Honda"/>
+        <include name="SUV"/>
+      </define> <!-- Honda and SUV -->
+      <run>
+        <include name="Honda and SUV"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TestNG_Grouping"/>
+    </classes>
+  </test> <!-- TestNG_Grouping -->
+</suite> <!-- Failed suite [TestSuite] -->
